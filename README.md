@@ -4,7 +4,7 @@ State-of-the-art in Automated Algorithm Selection for Multiple TSP
 The Multiple Traveling Salesman Problem (mTSP) is a generalization of the classic Traveling Salesman Problem (TSP), where multiple salesmen must collectively visit a set of cities while minimizing the total travel cost. This problem has various applications in logistics, transportation, and robotics. Given the complexity and variability of instances, automated algorithm selection can significantly improve solution efficiency by identifying the most suitable algorithm for a given instance.
 
 2. Existing Approaches
-3. 
+
 2.1 Deterministic Approaches
 Branch-and-Bound (B&B): Exhaustively explores the solution space while pruning suboptimal branches.
 Dynamic Programming (DP): Solves subproblems recursively but suffers from exponential time complexity.
