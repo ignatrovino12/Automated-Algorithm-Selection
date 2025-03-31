@@ -1,7 +1,7 @@
 State-of-the-art in Automated Algorithm Selection for Multiple TSP
 
 1. Introduction
-The Multiple Traveling Salesman Problem (mTSP) is a generalization of the classic Traveling Salesman Problem (TSP), where multiple salesmen must collectively visit a set of cities while minimizing the total travel cost. This problem has various applications in logistics, transportation, and robotics. Given the complexity and variability of instances, automated algorithm selection can significantly improve solution efficiency by identifying the most suitable algorithm for a given instance.
+The Multiple Traveling Salesman Problem (mTSP) is a generalization of the classic Traveling Salesman Problem (TSP), where multiple salesmen must collectively visit a set of cities while minimizing the total travel cost. This problem has various applications in logistics, transportation, and robotics. Given the complexity and variability of instances, automated algorithm selection can significantly improve solution efficiency by identifying the most suitable algorithm for a given instance. The chosen approach is for the standard mTSP where all the salesman return to the depot and need to visit at least one city.
 
 2. Existing Approaches
 
