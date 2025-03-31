@@ -43,6 +43,11 @@ Distance matrix properties (clustering tendency, edge density).
 Graph topology (connectivity, degree distribution).
 Solution diversity (number of feasible solutions within a cost threshold).
 
+- cost of mtsp (sum of distances that were traveled by the salesmen)
+- load balancing ( difference between the min and max distances traveled by salesmen)
+- time for finding solution
+- memory usage
+
 4.2 Dataset Construction
 Collect performance data for multiple algorithms across diverse instances.
 Encode problem features to form input vectors.
