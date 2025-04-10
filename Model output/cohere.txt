@@ -1,0 +1,181 @@
+{
+        "instance_id": 1,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 2,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 3,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 4,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 5,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 6,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 7,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 8,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 9,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance size (10 cities) allows Branch and Cut to find optimal solutions 
+efficiently."
+    },
+    {
+        "instance_id": 10,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 11,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (15 cities) makes Branch and Cut too slow; Ant Colony offers a 
+better balance of solution quality and speed."
+    },
+    {
+        "instance_id": 12,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (15 cities) makes Branch and Cut too slow; Ant Colony offers a 
+better balance of solution quality and speed."
+    },
+    {
+        "instance_id": 13,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (15 cities) makes Branch and Cut too slow; Ant Colony offers a 
+better balance of solution quality and speed."
+    },
+    {
+        "instance_id": 14,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (15 cities) makes Branch and Cut too slow; Ant Colony offers a 
+better balance of solution quality and speed."
+    },
+    {
+        "instance_id": 15,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (15 cities) makes Branch and Cut too slow; Ant Colony offers a 
+better balance of solution quality and speed."
+    },
+    {
+        "instance_id": 16,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 17,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 18,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 19,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 20,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Larger instance size (10 cities) and higher complexity make Ant Colony a better choice 
+than Greedy, while Branch and Cut becomes inefficient."
+    },
+    {
+        "instance_id": 21,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 22,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 23,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 24,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 25,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 26,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 27,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 28,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 29,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    },
+    {
+        "instance_id": 30,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Very large instance size (15 cities) makes Branch and Cut impractical; Ant Colony 
+provides a reasonable solution quality with acceptable computation time."
+    }
+\

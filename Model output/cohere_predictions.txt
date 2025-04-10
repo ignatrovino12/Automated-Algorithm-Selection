@@ -1,0 +1,322 @@
+cation": "Branch and Cut achieves the lowest total cost and normalized cost, making it the 
+preferred strategy despite its higher time taken."
+[
+    {
+        "instance_id": 1,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut consistently achieves the lowest total cost and normalized cost in 
+training instances, making it the best choice for optimal solutions despite its higher computational cost."
+    },
+    {
+        "instance_id": 2,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut outperforms other strategies in terms of total cost and normalized cost, 
+justifying its use despite the computational overhead."
+    },
+    {
+        "instance_id": 3,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut provides the best total cost and normalized cost, making it the preferred 
+strategy for this instance."
+    },
+    {
+        "instance_id": 4,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut achieves the lowest total cost and normalized cost, despite its higher 
+time taken, making it the best choice."
+    },
+    {
+        "instance_id": 5,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut consistently delivers the lowest total cost and normalized cost, 
+justifying its use despite the computational cost."
+    },
+    {
+        "instance_id": 6,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut provides the best total cost and normalized cost, making it the optimal 
+strategy for this instance."
+    },
+    {
+        "instance_id": 7,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut achieves the lowest total cost and normalized cost, making it the 
+preferred strategy despite its higher time taken."
+    },
+    {
+        "instance_id": 8,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut consistently outperforms other strategies in terms of total cost and 
+normalized cost, justifying its use."
+    },
+    {
+        "instance_id": 9,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut provides the best total cost and normalized cost, making it the optimal 
+strategy for this instance."
+    },
+    {
+        "instance_id": 10,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Branch and Cut achieves the lowest total cost and normalized cost, justifying its use 
+despite the computational overhead."
+    },
+    {
+        "instance_id": 11,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony performs well in terms of total cost and normalized cost, and it is less 
+computationally expensive than Branch and Cut, making it a good choice for this instance."
+    },
+    {
+        "instance_id": 12,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony provides a good balance between total cost and computational efficiency, 
+making it suitable for this instance."
+    },
+    {
+        "instance_id": 13,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony achieves a good total cost and normalized cost while being less 
+computationally expensive than Branch and Cut."
+    },
+    {
+        "instance_id": 14,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony performs well in terms of total cost and normalized cost, making it a suitable
+choice for this instance."
+    },
+    {
+        "instance_id": 15,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony provides a good balance between total cost and computational efficiency, 
+making it a good choice for this instance."
+    },
+    {
+        "instance_id": 16,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony achieves a good total cost and normalized cost while being less 
+computationally expensive than Branch and Cut."
+    },
+    {
+        "instance_id": 17,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony performs well in terms of total cost and normalized cost, making it a suitable
+choice for this instance."
+    },
+    {
+        "instance_id": 18,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony provides a good balance between total cost and computational efficiency, 
+making it a good choice for this instance."
+    },
+    {
+        "instance_id": 19,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony achieves a good total cost and normalized cost while being less 
+computationally expensive than Branch and Cut."
+    },
+    {
+        "instance_id": 20,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Ant Colony performs well in terms of total cost and normalized cost, making it a suitable
+choice for this instance."
+    },
+    {
+        "instance_id": 21,
+        "recommended_strategy": "Greedy",
+        "justification": "Given the larger instance size and the need for faster computation, Greedy is recommended
+as it provides a reasonable total cost with significantly lower time taken."
+    },
+    {
+        "instance_id": 22,
+        "recommended_strategy": "Greedy",
+        "justification": "For larger instances, Greedy offers a good balance between total cost and computational 
+efficiency, making it a suitable choice."
+    },
+    {
+        "instance_id": 23,
+        "recommended_strategy": "Greedy",
+        "justification": "Greedy provides a reasonable total cost with significantly lower time taken, making it a 
+good choice for this larger instance."
+    },
+    {
+        "instance_id": 24,
+        "recommended_strategy": "Greedy",
+        "justification": "Given the larger instance size, Greedy is recommended for its balance between total cost 
+and computational efficiency."
+    },
+    {
+        "instance_id": 25,
+        "recommended_strategy": "Greedy",
+        "justification": "Greedy offers a good balance between total cost and computational efficiency, making it a
+suitable choice for this instance."
+    },
+    {
+        "instance_id": 26,
+        "recommended_strategy": "Greedy",
+        "justification": "For larger instances, Greedy provides a reasonable total cost with significantly lower 
+time taken, making it a good choice."
+    },
+    {
+        "instance_id": 27,
+        "recommended_strategy": "Greedy",
+        "justification": "Greedy offers a good balance between total cost and computational efficiency, making it a
+suitable choice for this instance."
+    },
+    {
+        "instance_id": 28,
+        "recommended_strategy": "Greedy",
+        "justification": "Given the larger instance size, Greedy is recommended for its balance between total cost 
+and computational efficiency."
+    },
+    {
+        "instance_id": 29,
+        "recommended_strategy": "Greedy",
+        "justification": "Greedy provides a reasonable total cost with significantly lower time taken, making it a 
+good choice for this larger instance."
+    },
+    {
+        "instance_id": 30,
+        "recommended_strategy": "Greedy",
+        "justification": "For larger instances, Greedy offers a good balance between total cost and computational 
+efficiency, making it a suitable choice."
+    },
+    {
+        "instance_id": 31,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy provides a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 32,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a reasonable total cost with significantly lower time taken, making 
+it a good choice for this instance."
+    },
+    {
+        "instance_id": 33,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy provides a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 34,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For larger instances, KMeans-Greedy offers a good balance between total cost and 
+computational efficiency, making it a suitable choice."
+    },
+    {
+        "instance_id": 35,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy provides a reasonable total cost with significantly lower time taken, 
+making it a good choice for this instance."
+    },
+    {
+        "instance_id": 36,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 37,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy provides a reasonable total cost with significantly lower time taken, 
+making it a good choice for this instance."
+    },
+    {
+        "instance_id": 38,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For larger instances, KMeans-Greedy offers a good balance between total cost and 
+computational efficiency, making it a suitable choice."
+    },
+    {
+        "instance_id": 39,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy provides a reasonable total cost with significantly lower time taken, 
+making it a good choice for this instance."
+    },
+    {
+        "instance_id": 40,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 41,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "Given the very large instance size, KMeans-Greedy is recommended for its balance between 
+total cost and computational efficiency."
+    },
+    {
+        "instance_id": 42,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For very large instances, KMeans-Greedy provides a reasonable total cost with 
+significantly lower time taken, making it a good choice."
+    },
+    {
+        "instance_id": 43,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 44,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "Given the very large instance size, KMeans-Greedy is recommended for its balance between 
+total cost and computational efficiency."
+    },
+    {
+        "instance_id": 45,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For very large instances, KMeans-Greedy provides a reasonable total cost with 
+significantly lower time taken, making it a good choice."
+    },
+    {
+        "instance_id": 46,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 47,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "Given the very large instance size, KMeans-Greedy is recommended for its balance between 
+total cost and computational efficiency."
+    },
+    {
+        "instance_id": 48,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For very large instances, KMeans-Greedy provides a reasonable total cost with 
+significantly lower time taken, making it a good choice."
+    },
+    {
+        "instance_id": 49,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 50,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "Given the very large instance size, KMeans-Greedy is recommended for its balance between 
+total cost and computational efficiency."
+    },
+    {
+        "instance_id": 51,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "For very large instances, KMeans-Greedy provides a reasonable total cost with 
+significantly lower time taken, making it a good choice."
+    },
+    {
+        "instance_id": 52,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "KMeans-Greedy offers a good balance between total cost and computational efficiency, 
+making it a suitable choice for this instance."
+    },
+    {
+        "instance_id": 53,
+        "recommended_strategy": "KMeans-Greedy",
+        "justification": "Given the very large instance size, KMeans-Greedy is recommended for its balance between 
+total cost and computational efficiency."
+    }
+\]
