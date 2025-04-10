@@ -60,11 +60,10 @@ The following approaches were implemented to solve the Multiple Traveling Salesm
      - Includes constraints to eliminate subtours and enforce valid routes.
      - Solves the problem using the OR-Tools CBC/GUROBI solver with a 100-second time limit.
 
----
-
 ### **Evaluation Metrics**
 Each approach is evaluated based on the following metrics:
 - **Total Cost**: The total distance traveled by all salesmen.
+- **Normalized Cost**: The total cost of the solution normalized relative to the best-known solution for the same instance.
 - **Time Taken**: The time required to compute the solution.
 - **Distance Gap**: The difference between the longest and shortest routes among salesmen.
 - **Efficiency**: A metric combining cost and time to evaluate performance.
@@ -139,6 +138,13 @@ Autonomous systems leveraging lightweight AI agents could enhance algorithm sele
 - **Dynamic Algorithm Switching**: Adapting algorithm selection in real-time based on problem instance characteristics.
 - **Multi-Agent Collaboration**: Supporting multi-agent decision-making to enable distributed solving of mTSP.
 - **Integration with Reinforcement Learning**: Using feedback mechanisms to continuously improve algorithm recommendations.
+
+### **Using Command-R from Cohere**
+In this project, I used **Command-R** from Cohere to process the attributes extracted from the `instances` and `algorithms` tables. These attributes were used to train the LLM to select the best algorithm for test instances. The training data included:
+- **Instance Features**: Attributes such as the number of cities, number of salesmen, average distance, and clustering metrics.
+- **Algorithm Performance Metrics**: Metrics such as total cost, normalized cost, time taken, distance gap, and efficiency.
+
+The trained LLM analyzes the relationships between instance features and algorithm performance to recommend the most suitable algorithm for each test instance. This approach leverages the power of LLMs to make data-driven decisions and improve the efficiency of algorithm selection.
 
 ---
 
