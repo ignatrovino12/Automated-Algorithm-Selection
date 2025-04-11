@@ -1,0 +1,326 @@
+[
+    {
+        "instance_id": 1,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 2,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 3,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 4,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 5,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 6,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 7,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 8,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 9,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 10,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Small instance with 10 cities, Branch and Cut can find the optimal solution within the 
+time limit."
+    },
+    {
+        "instance_id": 11,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 12,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 13,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 14,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 15,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 16,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 17,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 18,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 19,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 20,
+        "recommended_strategy": "Greedy",
+        "justification": "Small instance with 10 cities, but Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    },
+    {
+        "instance_id": 21,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 22,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 23,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 24,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 25,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 26,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 27,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 28,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 29,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 30,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Medium-sized instance with 15 cities, Ant Colony can find a good solution within the time
+limit."
+    },
+    {
+        "instance_id": 31,
+        "recommended_strategy": "Branch and Cut",
+        "justification": "Large instance with 30 cities, but Branch and Cut can still find a good solution within 
+the time limit due to the specific characteristics of this instance."
+    },
+    {
+        "instance_id": 32,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Large instance with 30 cities, Ant Colony is recommended due to its ability to find good 
+solutions within the time limit."
+    },
+    {
+        "instance_id": 33,
+        "recommended_strategy": "Ant Colony",
+        "justification": "Large instance with 30 cities, Ant Colony is recommended due to its ability to find good 
+solutions within the time limit."
+    },
+    {
+        "instance_id": 34,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 35,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 36,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 37,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 38,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 39,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 40,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 41,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 80 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 42,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 43,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 44,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 45,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 46,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 47,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 48,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 200 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 49,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 500 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 50,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 500 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 51,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 500 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 52,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 500 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 53,
+        "recommended_strategy": "Greedy",
+        "justification": "Very large instance with 500 cities, Greedy is recommended due to its speed, although 
+solution quality may be lower."
+    },
+    {
+        "instance_id": 54,
+        "recommended_strategy": "Greedy",
+        "justification": "Large instance with 50 cities, Greedy is recommended due to its speed and acceptable 
+solution quality for this instance."
+    }
+\]
