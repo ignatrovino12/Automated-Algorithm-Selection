@@ -1,0 +1,102 @@
+instance_id,predicted_algorithm
+1,branch and cut
+2,branch and cut
+3,branch and cut
+4,branch and cut
+5,branch and cut
+6,branch and cut
+7,branch and cut
+8,branch and cut
+9,branch and cut
+10,branch and cut
+11,branch and cut
+12,greedy
+13,greedy
+14,branch and cut
+15,greedy
+16,branch and cut
+17,greedy
+18,greedy
+19,greedy
+20,branch and cut
+21,branch and cut
+22,branch and cut
+23,branch and cut
+24,branch and cut
+25,branch and cut
+26,branch and cut
+27,branch and cut
+28,branch and cut
+29,branch and cut
+30,branch and cut
+31,branch and cut
+32,greedy
+33,branch and cut
+34,kmeans greedy
+35,branch and cut
+36,kmeans greedy
+37,branch and cut
+38,kmeans greedy
+39,kmeans greedy
+40,branch and cut
+41,branch and cut
+42,kmeans greedy
+43,branch and cut
+44,kmeans greedy
+45,kmeans greedy
+46,kmeans greedy
+47,kmeans greedy
+48,kmeans greedy
+49,ant colony optimization
+50,ant colony optimization
+51,ant colony optimization
+52,ant colony optimization
+53,ant colony optimization
+54,branch and cut
+55,ant colony optimization
+56,ant colony optimization
+57,ant colony optimization
+58,ant colony optimization
+59,ant colony optimization
+60,ant colony optimization
+61,ant colony optimization
+62,ant colony optimization
+63,ant colony optimization
+64,ant colony optimization
+65,ant colony optimization
+66,ant colony optimization
+67,ant colony optimization
+68,ant colony optimization
+69,ant colony optimization
+70,ant colony optimization
+71,ant colony optimization
+72,ant colony optimization
+73,ant colony optimization
+74,ant colony optimization
+75,branch and cut
+76,branch and cut
+77,branch and cut
+78,branch and cut
+79,branch and cut
+80,branch and cut
+81,branch and cut
+82,branch and cut
+83,kmeans greedy
+84,branch and cut
+85,branch and cut
+86,branch and cut
+87,branch and cut
+88,branch and cut
+89,branch and cut
+90,branch and cut
+91,branch and cut
+92,branch and cut
+93,branch and cut
+94,branch and cut
+95,ant colony optimization
+96,ant colony optimization
+97,ant colony optimization
+98,ant colony optimization
+99,ant colony optimization
+100,ant colony optimization
+101,ant colony optimization
