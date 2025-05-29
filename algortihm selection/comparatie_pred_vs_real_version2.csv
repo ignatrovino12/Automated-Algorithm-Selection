@@ -1,0 +1,102 @@
+instance_id,predicted_algorithm,real_best_algorithm,predicted_algorithm_match,match
+1,branch and cut,Branch and Cut,Branch and Cut,True
+2,branch and cut,Branch and Cut,Branch and Cut,True
+3,branch and cut,Branch and Cut,Branch and Cut,True
+4,branch and cut,Branch and Cut,Branch and Cut,True
+5,branch and cut,Branch and Cut,Branch and Cut,True
+6,branch and cut,Branch and Cut,Branch and Cut,True
+7,branch and cut,Branch and Cut,Branch and Cut,True
+8,branch and cut,Branch and Cut,Branch and Cut,True
+9,branch and cut,Branch and Cut,Branch and Cut,True
+10,ant colony optimization,Branch and Cut,Ant Colony,False
+11,ant colony optimization,Branch and Cut,Ant Colony,False
+12,branch and cut,Branch and Cut,Branch and Cut,True
+13,branch and cut,Branch and Cut,Branch and Cut,True
+14,branch and cut,Branch and Cut,Branch and Cut,True
+15,branch and cut,Branch and Cut,Branch and Cut,True
+16,branch and cut,Greedy,Branch and Cut,False
+17,ant colony optimization,Branch and Cut,Ant Colony,False
+18,ant colony optimization,Branch and Cut,Ant Colony,False
+19,branch and cut,Branch and Cut,Branch and Cut,True
+20,ant colony optimization,Branch and Cut,Ant Colony,False
+21,branch and cut,Branch and Cut,Branch and Cut,True
+22,branch and cut,Branch and Cut,Branch and Cut,True
+23,branch and cut,Branch and Cut,Branch and Cut,True
+24,branch and cut,Branch and Cut,Branch and Cut,True
+25,branch and cut,Branch and Cut,Branch and Cut,True
+26,branch and cut,Branch and Cut,Branch and Cut,True
+27,branch and cut,Branch and Cut,Branch and Cut,True
+28,branch and cut,Branch and Cut,Branch and Cut,True
+29,branch and cut,Branch and Cut,Branch and Cut,True
+30,branch and cut,Branch and Cut,Branch and Cut,True
+31,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+32,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+33,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+34,kmeans greedy,Greedy,KMeans-Greedy,False
+35,kmeans greedy,Greedy,KMeans-Greedy,False
+36,kmeans greedy,Greedy,KMeans-Greedy,False
+37,kmeans greedy,Greedy,KMeans-Greedy,False
+38,kmeans greedy,Greedy,KMeans-Greedy,False
+39,kmeans greedy,Greedy,KMeans-Greedy,False
+40,kmeans greedy,Greedy,KMeans-Greedy,False
+41,kmeans greedy,Greedy,KMeans-Greedy,False
+42,kmeans greedy,Greedy,KMeans-Greedy,False
+43,kmeans greedy,Greedy,KMeans-Greedy,False
+44,kmeans greedy,KMeans-Greedy,KMeans-Greedy,True
+45,kmeans greedy,Greedy,KMeans-Greedy,False
+46,kmeans greedy,Greedy,KMeans-Greedy,False
+47,kmeans greedy,Greedy,KMeans-Greedy,False
+48,kmeans greedy,Greedy,KMeans-Greedy,False
+49,kmeans greedy,KMeans-Greedy,KMeans-Greedy,True
+50,kmeans greedy,Greedy,KMeans-Greedy,False
+51,kmeans greedy,KMeans-Greedy,KMeans-Greedy,True
+52,kmeans greedy,Greedy,KMeans-Greedy,False
+53,kmeans greedy,Greedy,KMeans-Greedy,False
+54,kmeans greedy,Greedy,KMeans-Greedy,False
+55,greedy,Greedy,Greedy,True
+56,greedy,Greedy,Greedy,True
+57,greedy,Greedy,Greedy,True
+58,greedy,Greedy,Greedy,True
+59,greedy,Greedy,Greedy,True
+60,greedy,Greedy,Greedy,True
+61,greedy,Greedy,Greedy,True
+62,greedy,Greedy,Greedy,True
+63,greedy,Greedy,Greedy,True
+64,greedy,Greedy,Greedy,True
+65,greedy,Greedy,Greedy,True
+66,greedy,Greedy,Greedy,True
+67,greedy,Greedy,Greedy,True
+68,greedy,Greedy,Greedy,True
+69,greedy,Greedy,Greedy,True
+70,greedy,Greedy,Greedy,True
+71,greedy,Greedy,Greedy,True
+72,greedy,Greedy,Greedy,True
+73,greedy,Greedy,Greedy,True
+74,greedy,Greedy,Greedy,True
+75,kmeans greedy,Greedy,KMeans-Greedy,False
+76,kmeans greedy,Greedy,KMeans-Greedy,False
+77,kmeans greedy,Greedy,KMeans-Greedy,False
+78,kmeans greedy,Greedy,KMeans-Greedy,False
+79,kmeans greedy,KMeans-Greedy,KMeans-Greedy,True
+80,kmeans greedy,Greedy,KMeans-Greedy,False
+81,kmeans greedy,Greedy,KMeans-Greedy,False
+82,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+83,kmeans greedy,Greedy,KMeans-Greedy,False
+84,kmeans greedy,Greedy,KMeans-Greedy,False
+85,kmeans greedy,KMeans-Greedy,KMeans-Greedy,True
+86,kmeans greedy,Greedy,KMeans-Greedy,False
+87,kmeans greedy,Greedy,KMeans-Greedy,False
+88,kmeans greedy,Greedy,KMeans-Greedy,False
+89,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+90,kmeans greedy,Greedy,KMeans-Greedy,False
+91,kmeans greedy,Greedy,KMeans-Greedy,False
+92,kmeans greedy,Greedy,KMeans-Greedy,False
+93,kmeans greedy,Greedy,KMeans-Greedy,False
+94,kmeans greedy,Branch and Cut,KMeans-Greedy,False
+95,greedy,Greedy,Greedy,True
+96,greedy,Greedy,Greedy,True
+97,greedy,Greedy,Greedy,True
+98,greedy,Greedy,Greedy,True
+99,greedy,Greedy,Greedy,True
+100,greedy,Greedy,Greedy,True
+101,greedy,Greedy,Greedy,True
