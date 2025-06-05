@@ -121,6 +121,38 @@ The following features are extracted from the problem instances and stored in th
 
   By combining Neural Networks and LLMs, we can build robust predictive models that not only recommend the best algorithm but also provide interpretability and adaptability to diverse problem instances.
 
+### 4.4 **Comparative Analysis: Old vs. New Model**
+
+To evaluate progress in algorithm selection, I compared the performance of the initial ("old") model and the improved ("new") model using the same test instances and metrics.
+
+The new version of the model (version 2) brings several improvements over the initial approach:
+
+- **Advanced Data Balancing:** Underrepresented algorithm classes are augmented using resampling and SMOTE, leading to a more balanced training set and improved generalization.
+- **Composite Score Modeling:** Instead of a fixed formula, the composite score is now predicted using a Gradient Boosting Regressor trained on performance metrics, providing a more nuanced evaluation of each algorithm's quality.
+- **Improved Feature Normalization:** Feature scaling and normalization are consistently applied to both training and validation data, ensuring stable model performance.
+- **Enhanced Neural Network Architecture:** The new model uses a deeper network with batch normalization and LeakyReLU activations, as well as Focal Loss to better handle class imbalance.
+- **Regularization and Early Stopping:** Stronger regularization (weight decay, dropout, and cosine annealing learning rate) and a more robust early stopping strategy to help prevent overfitting.
+
+These enhancements result in higher accuracy, better class-wise performance, and improved robustness on diverse mTSP instances.
+
+From the analysis of data I managed to collect and show the following data:
+
+**Key comparison metrics:**
+- **Accuracy**: Proportion of correctly predicted best algorithms.
+- **Classification Report**: Precision, recall, and F1-score for each algorithm class.
+- **Confusion Matrix**: Visualization of prediction errors and improvements.
+- **Instance-level Analysis**: Overlap and differences in correctly classified instances.
+
+**Summary of Results:**
+- The new model achieved a higher overall accuracy compared to the old model.
+- Improvements were observed in the prediction of certain algorithm classes, as shown by the classification report and confusion matrix.
+- A Venn diagram was used to visualize the overlap of correctly classified instances between the two models, highlighting areas of improvement.
+
+**Visualization Examples:**
+- Heatmaps of confusion matrices for both models.
+- Venn diagram showing unique and shared correct predictions.
+
+These analyses demonstrate the effectiveness of the improvements made in the new model and provide insights into remaining challenges for specific instance types.
 ---
 
 ## 5. **Smol Agents and Autonomous Systems for Algorithm Selection**
@@ -138,11 +170,6 @@ Autonomous systems leveraging lightweight AI agents could enhance algorithm sele
 - **Dynamic Algorithm Switching**: Adapting algorithm selection in real-time based on problem instance characteristics.
 - **Multi-Agent Collaboration**: Supporting multi-agent decision-making to enable distributed solving of mTSP.
 - **Integration with Reinforcement Learning**: Using feedback mechanisms to continuously improve algorithm recommendations.
-
-### **Using Command-R from Cohere**
-In this project, I used **Command-R** from Cohere to process the attributes extracted from the `instances` and `algorithms` tables. These attributes were used to train the LLM to select the best algorithm for test instances. The training data included:
-- **Instance Features**: Attributes such as the number of cities, number of salesmen, average distance, and clustering metrics.
-- **Algorithm Performance Metrics**: Metrics such as total cost, normalized cost, time taken, distance gap, and efficiency.
 
 The trained LLM analyzes the relationships between instance features and algorithm performance to recommend the most suitable algorithm for each test instance. This approach leverages the power of LLMs to make data-driven decisions and improve the efficiency of algorithm selection.
 

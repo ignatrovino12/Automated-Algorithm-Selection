@@ -29,7 +29,7 @@ instance_id,predicted_algorithm,real_algorithm,match
 28,Branch and Cut,Branch and Cut,True
 29,Branch and Cut,Branch and Cut,True
 30,Branch and Cut,Branch and Cut,True
-31,Greedy,Branch and Cut,False
+31,KMeans-Greedy,Branch and Cut,False
 32,Greedy,Branch and Cut,False
 33,Greedy,Branch and Cut,False
 34,Greedy,Greedy,True
@@ -73,26 +73,26 @@ instance_id,predicted_algorithm,real_algorithm,match
 72,Greedy,Greedy,True
 73,Greedy,Greedy,True
 74,Greedy,Greedy,True
-75,KMeans-Greedy,Greedy,False
+75,Greedy,Greedy,True
 76,KMeans-Greedy,Branch and Cut,False
 77,Greedy,Greedy,True
-78,KMeans-Greedy,Greedy,False
-79,KMeans-Greedy,Greedy,False
-80,KMeans-Greedy,Branch and Cut,False
+78,Greedy,Greedy,True
+79,Greedy,Greedy,True
+80,Greedy,Branch and Cut,False
 81,KMeans-Greedy,Greedy,False
 82,Greedy,Greedy,True
 83,Greedy,Greedy,True
 84,Greedy,Greedy,True
 85,Greedy,Greedy,True
-86,Greedy,Greedy,True
+86,KMeans-Greedy,Greedy,False
 87,Greedy,Greedy,True
-88,KMeans-Greedy,Branch and Cut,False
+88,Greedy,Branch and Cut,False
 89,Greedy,Greedy,True
-90,KMeans-Greedy,Greedy,False
+90,Greedy,Greedy,True
 91,Greedy,Greedy,True
 92,KMeans-Greedy,Greedy,False
 93,KMeans-Greedy,Branch and Cut,False
-94,KMeans-Greedy,Branch and Cut,False
+94,Greedy,Branch and Cut,False
 95,Greedy,Greedy,True
 96,Greedy,Greedy,True
 97,Greedy,Greedy,True
