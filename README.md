@@ -121,7 +121,34 @@ The following features are extracted from the problem instances and stored in th
 
   By combining Neural Networks and LLMs, we can build robust predictive models that not only recommend the best algorithm but also provide interpretability and adaptability to diverse problem instances.
 
-### 4.4 **Comparative Analysis: Old vs. New Model**
+---
+
+### 4.4 **Neural Network Model Architecture**
+
+To automatically select the optimal algorithm for each mTSP instance, we implemented a multi-layer neural network trained on instance features.
+
+**Model Architecture:**
+- **Input:** Feature vector for each instance (e.g., number of cities, salesmen, density, etc.)
+- **Hidden Layers:**  
+  - First layer: 64 neurons, ReLU activation, Batch Normalization, Dropout (0.3)  
+  - Second layer: 32 neurons, ReLU activation, Dropout (0.3)
+- **Output:** Fully-connected layer with Softmax for multi-class classification (one probability per algorithm strategy)
+- **Regularization:** Dropout and Batch Normalization to prevent overfitting
+- **Class Weights:** Used in the CrossEntropyLoss function to address class imbalance
+- **Optimization:** Adam optimizer with weight decay and learning rate scheduler
+- **Early Stopping:** Training stops when no improvement is seen on the validation set
+
+**Workflow:**
+1. Extract and normalize relevant features for each instance.
+2. Train the model on the training data, using class weights for underrepresented strategies.
+3. Validate the model on a separate set to prevent overfitting.
+4. For prediction, the model outputs probabilities for each strategy, selecting the one with the highest score.
+
+This model enables fast and automatic selection of the most suitable algorithm for any mTSP instance, based on historical data and problem characteristics.
+
+---
+
+### 4.5 **Comparative Analysis: Old vs. New Model**
 
 To evaluate progress in algorithm selection, I compared the performance of the initial ("old") model and the improved ("new") model using the same test instances and metrics.
 
