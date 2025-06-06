@@ -153,10 +153,13 @@ From the analysis of data I managed to collect and show the following data:
 - Heatmaps of confusion matrices for both models.
 - Venn diagram showing unique and shared correct predictions.
 
-![Confusion Matrix](images/confusion_matrix.png)
+Confusion Matrix
 
+![Confusion Matrix](images/confusion-matrix.png)
 
-![Confusion Matrix](images/Venn-Diagram.png)
+Venn Diagram
+
+![Venn Diagram](images/Venn-Diagram.png)
 
 These analyses demonstrate the effectiveness of the improvements made in the new model and provide insights into remaining challenges for specific instance types.
 
