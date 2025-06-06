@@ -135,6 +135,7 @@ The new version of the model (version 2) brings several improvements over the in
 
 These enhancements result in higher accuracy, better class-wise performance, and improved robustness on diverse mTSP instances.
 
+
 From the analysis of data I managed to collect and show the following data:
 
 **Key comparison metrics:**
@@ -151,6 +152,11 @@ From the analysis of data I managed to collect and show the following data:
 **Visualization Examples:**
 - Heatmaps of confusion matrices for both models.
 - Venn diagram showing unique and shared correct predictions.
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+
+![Confusion Matrix](images/Venn-Diagram.png)
 
 These analyses demonstrate the effectiveness of the improvements made in the new model and provide insights into remaining challenges for specific instance types.
 
