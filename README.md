@@ -137,6 +137,20 @@ To automatically select the optimal algorithm for each mTSP instance, we impleme
 - **Class Weights:** Used in the CrossEntropyLoss function to address class imbalance
 - **Optimization:** Adam optimizer with weight decay and learning rate scheduler
 - **Early Stopping:** Training stops when no improvement is seen on the validation set
+- **Feature Vector Used:** The input to the neural network consists of the following features, extracted for each instance:
+  - `nr_cities`
+  - `nr_salesmen`
+  - `average_distance`
+  - `stddev_distance`
+  - `density`
+  - `salesmen_ratio`
+  - `bounding_box_area`
+  - `aspect_ratio`
+  - `spread`
+  - `cluster_compactness`
+  - `mst_total_length`
+  - `entropy_distance_matrix`
+
 
 **Workflow:**
 1. Extract and normalize relevant features for each instance.
