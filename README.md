@@ -192,6 +192,73 @@ These analyses demonstrate the effectiveness of the improvements made in the new
 
 ---
 
+
+### 4.6 **Statistics**
+
+**Summary Table: Old vs. New Model**
+
+| Metric                      | Old Model         | New Model         |
+|-----------------------------|------------------|------------------|
+| Shape (instances, columns)  | (101, 4)         | (101, 4)         |
+| Accuracy                    | 65.35%           | 86.14%           |
+
+**Predicted Algorithm Distribution**
+
+| Algorithm        | Old Model | New Model | Real Best |
+|------------------|-----------|-----------|-----------|
+| Greedy           | 27        | 65        | 62        |
+| Branch and Cut   | 64        | 30        | 38        |
+| KMeans-Greedy    | 10        | 6         | 1         |
+
+---
+
+#### **Classification Report**
+
+<details>
+<summary>Old model classification report</summary>
+
+```
+              precision    recall  f1-score   support
+
+branchandcut       0.59      1.00      0.75        38
+      greedy       1.00      0.44      0.61        62
+kmeansgreedy       0.10      1.00      0.18         1
+
+    accuracy                           0.65       101
+   macro avg       0.56      0.81      0.51       101
+weighted avg       0.84      0.65      0.65       101
+```
+</details>
+
+<details>
+<summary>New model classification report</summary>
+
+```
+              precision    recall  f1-score   support
+
+branchandcut       0.97      0.76      0.85        38
+      greedy       0.89      0.94      0.91        62
+kmeansgreedy       0.00      0.00      0.00         1
+
+    accuracy                           0.86       101
+   macro avg       0.62      0.57      0.59       101
+weighted avg       0.91      0.86      0.88       101
+```
+</details>
+
+---
+
+#### **Match Rate by Class**
+
+| Algorithm        | Old Model Match Rate | New Model Match Rate |
+|------------------|---------------------|---------------------|
+| Branch and Cut   | 1.000               | 0.763               |
+| Greedy           | 0.435               | 0.935               |
+| KMeans-Greedy    | 1.000               | 0.000               |
+
+
+---
+
 ## 5. **Smol Agents and Autonomous Systems for Algorithm Selection**
 
 Recent advancements in lightweight AI agents, such as **Smol Agents**, have introduced new possibilities for automated algorithm selection in mTSP. These agents can assist in various stages of the selection process, including feature extraction, data preprocessing, and recommendation of algorithms based on historical performance.
